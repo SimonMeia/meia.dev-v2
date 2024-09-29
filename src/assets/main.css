@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'git-sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/Git-Sans.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'gaegu';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(./fonts/Gaegu-Light.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'gaegu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/Gaegu-Regular.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'gaegu';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(./fonts/Gaegu-Bold.ttf) format('ttf');
+  }
+}
